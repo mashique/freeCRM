@@ -48,7 +48,7 @@ public class TestBase {
 			driver.manage().timeouts().implicitlyWait(Util.implicitTimeOut,TimeUnit.SECONDS);
 			driver.manage().timeouts().pageLoadTimeout(Util.pageLoadTimeout, TimeUnit.SECONDS);
 			driver.get(prop.getProperty("url"));
-			System.out.println("printing for testing meaning less");
+			System.out.println(" just try to print meaning less");
 		}
 		
 		
