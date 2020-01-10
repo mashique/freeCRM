@@ -22,7 +22,7 @@ public class TestBase {
 		
 		try {
 			prop= new Properties();
-			FileInputStream src = new FileInputStream("D:\\Selenium\\FreeCRM\\src\\main\\java\\Com\\FreeCRM\\Qa\\Config\\Config.properties");
+			FileInputStream src = new FileInputStream("D:\\workspace\\clone project\\freeCRM\\src\\main\\java\\Com\\FreeCRM\\Qa\\Config\\Config.properties");
 			prop.load(src);
 		
 		} catch (FileNotFoundException e) {
@@ -41,7 +41,7 @@ public class TestBase {
 		
 		if(browserName.equalsIgnoreCase("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\chromedriver_win32 (2)\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "D:\\Softwares\\chromedriver.exe");
 			driver =new ChromeDriver();
 			driver.manage().deleteAllCookies();
 			driver.manage().window().maximize();
