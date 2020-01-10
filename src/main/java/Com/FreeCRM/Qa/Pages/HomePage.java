@@ -20,6 +20,7 @@ public class HomePage extends TestBase {
 	@FindBy(xpath="//td[contains(text(),'User: MOHAMMAD ASHIQUE')]")
 	WebElement username;
 	
+
 	
 	public HomePage()
 	{
