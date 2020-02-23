@@ -33,7 +33,7 @@ public class HomePageTest extends TestBase {
 	public void validateHomePageTitle()
 	{
 		String title= homePage.validateHomePageTitle();
-		Assert.assertEquals(title, "CRMPRO");
+		Assert.assertEquals(title, "CRMPRO", "Titles are not same");
 	}
 	
 	@Test
